@@ -104,3 +104,21 @@ User can not see the 404 page when is necessary.
 **Test data:**
 
 ---------------------
+
+**Title:** 
+API response  
+
+**Description:** When we want to see API response in romanian language, this is not completely displayed in romanian language.   
+
+**Steps to reproduce:** 
+1. Create a GET request using Postman to API endpoint attached in test data.
+
+**Expected result:**
+User should be able to see the API response in romanian language when he use 'lang' parameter with 'ro' value. 
+
+**Actual result:**
+User can not see the API response in romanian language because this is not complitely displayed in romanian language. 
+
+**Test data:** api.openweathermap.org/data/2.5/forecast?zip=10001&appid=2cb2be7f539217809ca133c4f9260046&units=metric&lang=ro
+
+---------------------
