@@ -93,7 +93,7 @@ Missing 404 page
 **Description:** When we want to browse a page and it's not working the 404 site page is not available. 
 
 **Steps to reproduce:** 
-Go to https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login/
+1. Go to https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login/
 
 **Expected result:**
 User should be able to see the 404 page. 
@@ -119,6 +119,7 @@ User should be able to see the API response in romanian language when he use 'la
 **Actual result:**
 User can not see the API response in romanian language because this is not complitely displayed in romanian language. 
 
-**Test data:** api.openweathermap.org/data/2.5/forecast?zip=10001&appid=2cb2be7f539217809ca133c4f9260046&units=metric&lang=ro
+**Test data:** 
+api.openweathermap.org/data/2.5/forecast?zip=10001&appid=2cb2be7f539217809ca133c4f9260046&units=metric&lang=ro
 
 ---------------------
